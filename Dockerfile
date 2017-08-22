@@ -2,7 +2,10 @@ FROM node:7.8.0
 
 ENV NPM_CONFIG_LOGLEVEL warn
 
-COPY . .
+RUN mkdir -p /usr/react-tdd
+WORKDIR /usr/react-tdd
+
+COPY . /usr/react-tdd
 
 RUN npm run build --production
 
