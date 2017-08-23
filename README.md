@@ -2,6 +2,9 @@
 
 This is a simple web app for managing a support request queue. The focus of the project is developing a test-driven React app utilizing a CI/CD pipeline and Docker.
 
+[![Build Status](https://travis-ci.org/danielbutts/react-tdd.svg?branch=master)](https://travis-ci.org/danielbutts/react-tdd)
+[![BCH compliance](https://bettercodehub.com/edge/badge/danielbutts/react-tdd?branch=master)](https://bettercodehub.com/)
+
 ## Deployed URL
 
 [https://react-tdd.herokuapp.com/](https://react-tdd.herokuapp.com/)
